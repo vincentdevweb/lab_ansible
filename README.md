@@ -18,6 +18,13 @@ Les chemins de configuration vont être différents pour le serveur apache.
 
 Le vagrantfile utilise virtualbox comme provider. Si vous avez un souci avec son utilisation n'hésitez pas à me solliciter.
 
+Pour se connecter aux machines:
+
+    Controller: vagrant ssh controller
+    Managed node 1: vagrant ssh m1
+    Managed node 2: vagrant ssh m2
+
+
 `git clone https://github.com/Mossbaddi/lab_ansible`
 
 `cd lab_ansible`

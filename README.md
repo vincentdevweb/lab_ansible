@@ -44,6 +44,9 @@ N'hésitez pas à relancer plusieurs fois le up, et utilisez vagrant status pour
 En faisant ce TP bonus, vous apprendrez beaucoup sur ansible et aurez déjà une idée de ce à quoi peut ressembler un playbook avancé! N'hésitez surtout pas à bien consulter la documentation et vous documenter sur les modules disponibles, les fonctionnalités d'ansible. Comme d'habitude, plusieurs routes mènent à Rome, et il y en a toujours une qui est mieux pavée que les autres. 
 
 ### TEST VAGRANT PERSO
+
+./src est sync avec dans vangrant@controlleur:~Ansible$
+
 ligne de commande : 
 cd ~/.ssh
 ssh-keygen -t rsa #genere cle rsa 

@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Ansible":{"guestpath":"/home/vagrant/Ansible","hostpath":"C:/Users/Administrateur/Desktop/AWS/lab_ansible/src","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Administrateur/Desktop/AWS/lab_ansible","disabled":false,"__vagrantfile":true}}}

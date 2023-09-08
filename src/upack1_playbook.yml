@@ -1,0 +1,37 @@
+---
+- name: Install Node.js, npm, Gatsby CLI, gcc-c++, and make on Ubuntu
+  hosts: managed1  # Le nom du groupe d'hôtes spécifié dans le fichier hosts.ini
+  become: yes  # Privilège sudo
+  tasks:
+    - name: Install gcc-c++ and make
+      apt:
+        name:
+          - g++
+          - make
+        state: present
+
+    - name: Remove Node.js and npm
+      apt:
+        name:
+          - nodejs
+          - npm
+        state: absent
+
+    - name: Download and execute Node.js setup script
+      command: curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+    # - name: Autoremove unused packages
+    #   apt:
+    #     autoremove: yes
+
+    - name: Install Node.js and npm
+      apt:
+        name:
+          - nodejs
+          - npm
+        state: present
+
+    - name: Install Gatsby CLI with npm
+      npm:
+        name: gatsby-cli
+        global: yes

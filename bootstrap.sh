@@ -15,7 +15,7 @@ echo -e "192.168.10.3 controller.anslab.com controller\n192.168.10.4 managed1.an
 
 # Installation des paquets nécessaires
 
-sudo apt update && sudo apt -y install curl wget net-tools iputils-ping python3-pip sshpass
+sudo apt update && sudo apt -y install npm curl wget net-tools iputils-ping python3-pip sshpass
 
 # Installer Ansible en utilisant pip uniquement sur le noeud "controller"
 

@@ -48,4 +48,5 @@ ligne de commande :
 cd ~/.ssh
 ssh-keygen -t rsa #genere cle rsa 
 ssh-copy-id -i id_rsa vagrant@managed1 # mdp : vagrant
+vagrant@controller:~/.ssh$ ssh -i id_rsa vagrant@managed1 #connection controlleur vers manage1
 
